@@ -2,6 +2,6 @@ FROM dart:stable
 
 WORKDIR /files/dart-calc
 
-COPY . .
+COPY . /files/dart-calc
 
 CMD [ "dart", "run", "calc.dart" ]

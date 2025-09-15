@@ -2,7 +2,7 @@ FROM openjdk:17-alpine
 
 WORKDIR /files/calc-java
 
-COPY . .
+COPY . /files/calc-java
 
 RUN javac calc.java
 

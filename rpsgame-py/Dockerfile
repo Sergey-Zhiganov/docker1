@@ -2,6 +2,6 @@ FROM python:alpine
 
 WORKDIR /files/rpsgame-py
 
-COPY . .
+COPY . /files/rpsgame-py
 
 CMD [ "python", "RockPaperScissorsGame.py" ]
