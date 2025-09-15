@@ -1,4 +1,4 @@
-FROM openjdk:17-alpine
+FROM openjdk:alpine
 
 WORKDIR /files/calc-java
 
